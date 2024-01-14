@@ -1,16 +1,12 @@
 # Source Scramble Patches
 
-Collection of patches to be used with Source Scramble's manager plugin.
+TF2C patches to be used with nosoop's Source Scramble's manager plugin.
 
 Requires [Source Scramble](https://github.com/nosoop/SMExt-SourceScramble) and its manager
 plugin.
 
-`tf2.nosoop_scramble_patches.config.txt` goes into `addons/sourcemod/configs/sourcescramble`
-and `tf2.nosoop_scramble_patches.txt` goes into `addons/sourcemod/gamedata`.
-
-You will likely want to review `tf2.nosoop_scramble_patches.config.txt` and comment out any
-patches that you don't want applied.  By default, all patches are enabled, even if not supported
-on the platform.
+`tf2c.*.config.txt` goes into `addons/sourcemod/configs/sourcescramble`
+and `tf2c.*.txt` goes into `addons/sourcemod/gamedata`.
 
 ## License
 
