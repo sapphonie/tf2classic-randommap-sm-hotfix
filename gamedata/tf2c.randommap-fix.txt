@@ -22,6 +22,10 @@
 				}
 				"windows"
 				{
+					// jz -> jmp, we just have less bytes to work with than linux to verify with
+					"offset"		"17h"
+					"verify"		"\x85\xFF\x74"
+					"patch"			"\x85\xFF\xEB"
 				}
 			}
 		}
@@ -32,7 +36,8 @@
 				// "Changelevel to a random map in the mapcycle file"
 				"library"	"server"
 				"linux"		"@_Z12cc_randommapRK8CCommand"
-				"windows"	""
+				// sub_103E4B80
+				"windows"	"\x55\x8B\xEC\x83\xEC\x64\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x57"
 			}
 		}
 	}
