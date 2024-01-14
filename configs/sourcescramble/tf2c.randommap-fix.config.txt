@@ -1,0 +1,8 @@
+/**
+ * These are a collection of patches for Source Scramble.
+ */
+"Patches"
+{
+	// See the gamedata
+	"tf2c.randommap-fix"			"cc_randommap"
+}
